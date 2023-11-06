@@ -289,6 +289,7 @@ export function PreviewActions(props: {
   const onRenderMsgs = (msgs: ChatMessage[]) => {
     setShouldExport(false);
     return;
+  }
 
   const share = async () => {
     if (props.messages?.length) {
